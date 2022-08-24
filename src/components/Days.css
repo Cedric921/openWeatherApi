@@ -1,0 +1,49 @@
+
+
+.weather__details {
+   margin: 20px;
+}
+.weather__details h2 {
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.weather__details h4 {
+   font-weight: 400;
+}
+
+
+.weather__title-value  span{
+   color: #3f78a7;
+   font-weight: 700;
+   font-size: 54px;
+}
+.weather__other {
+   box-sizing: border-box;
+   margin: 20px 0;
+   padding: 0px;
+   width: 100%;
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: dimgrey;
+}
+
+.weather__other h4 {
+   font-size: 24px;
+   color: #000000;
+}
+
+.weather-town {
+   background: #3f78a7;
+   color: white;
+   font-size: 20px;
+   border-radius: 50px;
+   box-shadow:  0 2px 5px darkgrey;
+   width: 60px;
+   padding: 10px 40px;
+   margin: 10px auto;
+}
+
+
