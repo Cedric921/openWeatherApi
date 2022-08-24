@@ -43,14 +43,20 @@
 }
 
 .weather-town {
+   box-sizing: border-box;
    background: #3f78a7;
    color: white;
+   
    font-size: 20px;
+   text-align: center;
    border-radius: 50px;
    box-shadow:  0 2px 5px darkgrey;
-   width: 60px;
+   width: 120px;
    padding: 10px 40px;
    margin: 10px auto;
+
+   display: flex;
+   justify-content: center;
 }
 
 

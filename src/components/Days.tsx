@@ -53,7 +53,7 @@ const Days = ({ weather }: DaysType) => {
 								<p>pressure</p>
 							</div>
 						</div>
-						<div className='weather-town'>Goma</div>
+						<div className='weather-town'><p>Goma</p></div>
 						<h4>{element.dt_txt.split(' ')[0]}</h4>
 					</div>
 				))}
