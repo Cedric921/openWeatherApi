@@ -1,4 +1,11 @@
+.weather__img {
+   width: 30%;
+   margin: auto;
+}
 
+.weather__img img {
+   width: 100%;
+}
 
 .weather__details {
    margin: 20px;

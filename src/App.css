@@ -2,8 +2,6 @@
 	display: flex;
 	justify-content: space-evenly;
 	gap: 20px;
-
-	width: 100vw;
 }
 
 .App .div {
@@ -11,8 +9,9 @@
 }
 
 .weathers {
+	box-sizing: border-box;
 	display: flex;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -23,7 +22,7 @@
 	background: rgb(255, 254, 252);
 
 	box-shadow: 0 0 10px grey;
-	max-width: 400px;
+	max-width: 300px;
 	min-width: 250px;
 	width: 33%;
 	margin: 20px;

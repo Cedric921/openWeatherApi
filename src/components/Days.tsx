@@ -1,5 +1,5 @@
-import React from 'react';
 import './Days.css';
+import Open from '../assets/open.png'
 
 type DaysType = {
 	weather: {
@@ -31,6 +31,9 @@ const Days = ({ weather }: DaysType) => {
 			{weather &&
 				weather.list.splice(0, 8).map((element, index) => (
 					<div key={index} className='weather'>
+						<div className="weather__img">
+							<img src={Open} alt="open" />
+						</div>
 						{element.weather.map((item, index) => (
 							<div key={index} className='weather__details'>
 								<h2>{item.main}</h2>
